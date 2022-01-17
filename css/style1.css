@@ -30,3 +30,14 @@ div#q3
 {
     background-image: url('/imagens/pattern003.png');
 }
+
+
+button
+{
+    background-color: black;
+    border-radius: 5px;
+}
+a
+{
+    color: brown;
+}

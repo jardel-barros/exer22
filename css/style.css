@@ -28,4 +28,13 @@ p
 {
     color: azure;
 }
+button
+{
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+a
+{
+    color: rgb(214, 191, 191);
+}
 
