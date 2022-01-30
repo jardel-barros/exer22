@@ -1,17 +1,25 @@
 body
 {
+    /*
     height: 100vh;
     background-color: black;
-    background-image: url('../imagens/wallpaper003.jpg');
+    background-image: url('../imagens/wallpaper002.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    */
+    /* shorthand -> background 
+       color > image > position > repeat > [size] > attachment
+    */
+    height: 100vh;
+    background: black  url('../imagens/wallpaper002.jpg') center center no-repeat  fixed;
 }
 
 main
 {
-    background-color: brown;
-    width: 400px;
+    background-color: rgb(223, 210, 210);
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border-radius: 15px;
@@ -21,12 +29,12 @@ main
 
 h1
 {
-    color: aqua;
+    color: rgb(5, 119, 119);
 }
 
 p
 {
-    color: azure;
+    color: rgb(11, 12, 12);
 }
 button
 {
