@@ -12,25 +12,22 @@ h1
 table
 {
     width: 400px;
+    height: 400px;
     color: aqua;
     border-collapse: collapse;/**/
 }
 
-tr.linha
-{
-    background: rgb(23, 202, 53);
-    color: rgb(13, 26, 26);
-}
 
 td
 {
     border: 5px solid rgb(26, 174, 194);
     padding: 8px;
+    text-align: center;/* Alinhamento horizontal*/
+    vertical-align: middle;
 }
 
-td.a1
+.numero
 {
-    background-color: rgb(155, 194, 204);
-    color: rgb(255, 123, 0);
+    text-align: right;
 }
 
