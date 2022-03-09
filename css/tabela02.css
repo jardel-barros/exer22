@@ -5,5 +5,23 @@ body
 
 table
 {
-    width: 600px;
+    width: 500px;
+    border-collapse: collapse;
+}
+
+td, th
+{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td.num
+{
+    text-align: right;
+}
+
+thead, tfoot
+{
+    background-color: gray;
+    color: white;
 }
