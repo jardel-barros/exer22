@@ -23,11 +23,11 @@ td
     border: 5px solid rgb(26, 174, 194);
     padding: 8px;
     text-align: center;/* Alinhamento horizontal*/
-    vertical-align: middle;
+    vertical-align: middle;/* Alinhamento vertical*/
 }
 
 .numero
 {
-    text-align: right;
+    text-align: right; /* Alinhamento vertical*/
 }
 
