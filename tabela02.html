@@ -11,6 +11,9 @@
     <!--
    * ANATOMIA PARA TABELAS GRANDES
      TABLE => TABELA
+
+        CAPTION => A LEGENDA DA TABELA(TITULO)
+
         THEAD => CABEÇA DA TABELA
             TR, TD, TH
 
@@ -21,10 +24,11 @@
                     TR, TD, TH
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>ESTADO</th>
-                <th>POPULAÇÃO</th>
+                <th scope="col">ESTADO</th>
+                <th scope="col" style="width: 50px;">POPULAÇÃO</th>
             </tr>
         </thead>
 
@@ -67,7 +71,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>0000</strong></td>
             </tr>
         </tfoot>
