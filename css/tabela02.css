@@ -23,6 +23,11 @@ caption
     background-color: lightgray;
 }
 
+tbody > tr:nth-child(2n)/* efeito zebrado*/
+{
+    background-color: rgb(156, 199, 195);
+}
+
 td.num
 {
     text-align: right;
