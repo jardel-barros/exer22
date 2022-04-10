@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tabela03.css">
+    <title>Tabela 03</title>
+</head>
+<body>
+    <h1>Mesclagem de células</h1>
+    <table>
+        <!-- colspan="" para expandir  colunas-->
+        <!-- rowspan="" para expandir  linhas-->
+        <tr><!--LINHAS-->
+            <td id="cabecalho">DEL DESIGN</td><!--COLUNAS-->
+            <td colspan="2">B</td><!-- colspan="2" para expandir 2 colunas-->
+            <!--<td>C</td>-->
+        </tr>
+        <tr><!--LINHAS-->
+            <td rowspan="3" id="conteudo">Conteudo</td><!-- rowspan="3" para expandir 3 linhas-->
+            <td>E</td>
+            <td rowspan="2">F</td>
+        </tr>    
+        <tr><!--LINHAS-->
+            <!--<td>G</td>-->
+            <td>H</td>
+            <!--<td>I</td>-->
+        </tr>   
+        <tr><!--LINHAS-->
+            <!--<td>J</td>-->
+            <!--<td>L</td>-->
+            <td colspan="2">M</td>
+        </tr>
+
+    </table>
+</body>
+</html>
