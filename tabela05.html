@@ -3,84 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/tabela04.css">
+    <link rel="stylesheet" href="css/tabela05.css">
     <title>Tabelas 05</title>
 </head>
 <body>
     <h1>Exercicio de tabela 05</h1>
     <table>
-        <!--
-            <caption>
-            Filmes favoritos
-            </caption> 
-        -->
-       
-       
-       <thead>
+        <caption>Médias Disciplinares</caption>
+        <thead>
+            <th colspan="2" rowspan="2">Área</th>
+            <th colspan="2" rowspan="2">Disciplinas</th>
+            <th colspan="2">Notas</th>
+            <th rowspan="2" colspan="3">Médias</th>
             <tr>
-                <th rowspan="2" scope="colgruop">Area</th>
-                <th scope="col">Disciplinas</th>
-                <th colspan="2" scope="colgroup">Notas</th>
-                <th colspan="3" scope="colgroup">Medias</th>
+                <th>nota 1</th>
+                <th>nota 2</th>
             </tr>
-       </thead>
-       <!---->
-       <tfoot>
-           <tr>
-               <th colspan="2" scope="row">Media de Humanas</th>
-               <td>1000</td>
-           </tr>
-       </tfoot>
+        </thead>
 
-       <tbody>
-           
+        <tbody>
             <tr>
-                <th rowspan="4" scope="rowgroup">Exatas</th>
-                <td>Ana Maria Santos</td>
-                <td>Alien</td>
-                <td>Rambo</td>
-                <td>Vigadores</td>
-            </tr>
-            <tr>
-                <td>Beatris souza</td>
-                <td>Huck</td>
-                <td>Inception</td>
-                <td>Batman</td>
-            </tr>
-            <tr>
-                <td>Claudia Mello</td>
-                <td>Oblivion</td>
-                <td>Matrix</td>
-                <td>Big Hero</td>
+                <th rowspan="4" colspan="2">Exatas</td>
+                <td colspan="2">Matematica</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
             </tr>
 
             <tr>
-                <td>Claudia Mello</td>
-                <td>Oblivion</td>
-                <td>Matrix</td>
-                <td>Big Hero</td>
+                <td colspan="2">Física</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
             </tr>
 
             <tr>
-                <th rowspan="1" scope="rowgroup">Media da Exatas</th>
-                <td>Bruno Mendonça</td>
-                <td>Intocavel</td>
-                <td>Amnésia</td>
-                <td>Gradiador</td>
+                <td colspan="2">Química</td>
+                <td>8.0</td>
+                <td>10</td>
+                <td>10</td>
             </tr>
+
             <tr>
-                <th rowspan="3" scope="rowgroup">Humanas</th>
-                <td>Wall-E</td>
-                <td>Oldboy</td>
-                <td>Dangai</td>
+                <td colspan="2">Geometria</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
             </tr>
+
+            <tr class="media-exata">
+                <th colspan="6">Média de exatas</td>
+                <td>10</td>
+            </tr>
+
             <tr>
-                <td>Fabiano Mota</td>
-                <td>Star Wars S</td>
-                <td>Taxi Driver</td>
-                <td>Toy Story</td>
+                <th rowspan="2" colspan="2">Humanas</td>
+                <td colspan="2">Historia</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
             </tr>
-       </tbody>
-    </table>
+
+            <tr>
+                <td colspan="2">Geografia</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+
+            <tr class="media">
+                <th colspan="6">Média de humas</th>
+                <td>5</td>
+            </tr>
 </body>
 </html>
